@@ -1,0 +1,306 @@
+body{margin:0 auto;padding:0 auto;}
+
+.header_section{
+	float:left;
+	width:100%;
+	background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.4),
+   rgba(0,0,0,0.4)
+  ),url('../image/intro-bg.jpg');
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+}
+.menu_section{
+	float:left;
+	width:100%;
+	color:white;
+	text-align:center;
+	}
+.list li{
+	display:inline;
+	margin:0em 3em;
+	padding-top:4em 0em;
+	text-transform:uppercase;
+	font-family:open sans;
+	font-size:15px;
+	font-weight:400;
+}
+.hero_section{
+	float:left;
+	width:100%;
+	text-transform:capitalize;
+	color:white;
+	text-align:center;
+}
+.hero_section h1{
+	margin:1em 0em;
+	font-family:rochester;
+	font-size:140px;
+	font-weight:400;
+}
+.hero_section p{
+	padding-bottom:0.5em;
+	font-family:open sans;
+	font-size:24px;
+	font-weight:400;
+}
+/*header section ends here*/
+
+.specials_section{float:left;width:100%;padding:3em 0em}
+.our_specials{
+	font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 0px;
+}
+.hr_line {
+    border: 2px solid red;
+    width: 8%;
+}
+.specials_group {
+    float: left;
+    width: 100%;
+}
+
+.specials_group_left {
+    float: left;
+    width: 31%;
+    text-align: center;
+    padding: 1em;
+}
+.specials_group_center {
+    float: left;
+    width: 30.8%;
+    text-align: center;
+    padding: 1em;
+}
+.specials_group_right {
+    float: right;
+    width: 31%;
+    text-align: center;
+    padding: 1em;
+}
+
+.specials_group_left h4, .specials_group_center h4, .specials_group_right h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333;
+}
+
+.specials_group_left img, .specials_group_center img, .specials_group_right img{
+	width:66%
+}
+.specials_group_left p, .specials_group_center p, .specials_group_right p{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 1.7;
+    color: grey;
+    padding: 0em 2em;
+}
+
+.our_story_section{float:left;width:100%;background-color:#F6F6F6;}
+
+.our_story_section_left{
+	float:left;
+    width:50%;
+    background-image:url(../image/gallery-bg.jpg);
+	height:500px;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+
+}
+
+.our_story_section_right{
+	float:right;
+	width:45%;
+	background: #F6F6F6;
+    padding: 3em 0em;
+}
+
+.our_story_section_right p{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 1.7;
+    color: grey;
+    width: 65%;
+}
+
+.our_story_section_right h4{
+	font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #333;
+}
+
+.hr_line1{
+	border:1px solid red;
+	width:40px;
+}
+
+.menu{
+	float:left;
+	width:100%;
+	padding:2em 0em;	
+}
+
+.menu h3{
+	font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.menu_table {
+	float:left;
+	width:100%;
+	padding:2em 0em;
+}
+
+.menu_table_left{
+	float:left;
+	width:50%;
+}
+.menu_table_left h4{
+	font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 33px;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footitems{
+	float:left;
+	width:100%;
+}
+.foodname{
+	float:left;
+	width:70%;
+}
+
+.foodprice {
+    float:right;
+    width: 25%;
+   
+}
+
+
+.foodname h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0px;
+}
+
+
+.foodname p {
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 1.7;
+    color: grey;
+
+}
+
+.foodprice h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 24px;
+    line-height: 1.7;
+    color: grey;
+    text-align: center;
+}
+
+
+.menu_table_right{
+	float:right;
+	width:50%;
+}
+.menu_table_right h4{
+	font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 33px;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footitems{
+	float:left;
+	width:100%;
+}
+.foodname{
+	float:left;
+	width:70%;
+}
+
+.foodprice {
+    float:right;
+    width: 25%;
+   
+}
+
+
+.foodname h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0px;
+}
+
+
+.foodname p {
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 1.7;
+    color: grey;
+
+}
+
+.foodprice h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 24px;
+    line-height: 1.7;
+    color: grey;
+    text-align: center;
+}
+
+.footer {
+    float: left;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.footerlist li {
+    display: inline;
+    margin: 0em 2em;
+}
+
+.footerlist li a{color:white;}
+
+
+
